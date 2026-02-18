@@ -10,7 +10,6 @@ import {
 } from "@heroicons/react/24/outline";
 import ToolCard from "./components/ToolCard";
 
-
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-neutral-950 text-neutral-200 relative overflow-hidden">
@@ -22,7 +21,14 @@ export default function HomePage() {
       {/* HERO SECTION */}
       <section className="text-center pt-28 pb-20 relative z-10 max-w-3xl mx-auto px-6 animate-fade-in">
         {/* TITRE PREMIUM */}
-        <h1 className="text-5xl font-mono font-semibold uppercase tracking-widest text-neutral-200">
+        <h1
+          className="
+    text-3xl sm:text-4xl md:text-5xl
+    font-mono font-semibold uppercase
+    tracking-wide sm:tracking-widest
+    text-neutral-200
+  "
+        >
           CyberTools Suite
         </h1>
 
