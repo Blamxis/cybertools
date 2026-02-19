@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cybertools.vercel.app/sitemap.xml
+Sitemap: https://cybertools-v1.vercel.app/sitemap.xml

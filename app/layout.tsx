@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://cybertools.vercel.app"),
+  metadataBase: new URL("https://cybertools-v1.vercel.app"),
 
   title: {
     default: "CyberTools Suite — Passive Cybersecurity Tools",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: "CyberTools Suite",
     description:
       "A modern suite of passive cybersecurity tools with a refined UI and full client-side execution.",
-    url: "https://cybertools.vercel.app",
+    url: "https://cybertools-v1.vercel.app",
     siteName: "CyberTools Suite",
     type: "website",
     locale: "en_US",

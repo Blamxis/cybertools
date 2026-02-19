@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const base = "https://cybertools.vercel.app";
+  const base = "https://cybertools-v1.vercel.app";
   const now = new Date();
 
   return [
