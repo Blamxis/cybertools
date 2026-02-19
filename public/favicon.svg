@@ -1,0 +1,33 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cyber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#4338CA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="128" cy="128" r="110" fill="url(#cyber)" />
+
+  <!-- Lock body -->
+  <rect x="88" y="120" width="80" height="70" rx="12" fill="white" />
+
+  <!-- Lock shackle -->
+  <path d="M104 120 V100 a24 24 0 0 1 48 0 V120"
+        stroke="white" stroke-width="14" fill="none" stroke-linecap="round"/>
+
+  <!-- Circuit lines -->
+  <g stroke="white" stroke-width="10" stroke-linecap="round">
+    <line x1="128" y1="18" x2="128" y2="48" />
+    <circle cx="128" cy="18" r="8" fill="white" />
+
+    <line x1="38" y1="128" x2="68" y2="128" />
+    <circle cx="38" cy="128" r="8" fill="white" />
+
+    <line x1="218" y1="128" x2="188" y2="128" />
+    <circle cx="218" cy="128" r="8" fill="white" />
+
+    <line x1="128" y1="238" x2="128" y2="208" />
+    <circle cx="128" cy="238" r="8" fill="white" />
+  </g>
+</svg>
