@@ -1,36 +1,149 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔐 CyberTools Suite  
+*A modern collection of passive cybersecurity tools with a refined UI.*
 
-## Getting Started
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-success)
+![Tech](https://img.shields.io/badge/built_with-Next.js_16-black)
+![Security](https://img.shields.io/badge/focus-passive_security-red)
 
-First, run the development server:
+---
+
+## 🌐 Overview
+
+CyberTools Suite is a collection of **lightweight, passive cybersecurity utilities** designed with:
+
+- a **modern, elegant UI**
+- **zero backend dependencies**
+- **instant client‑side execution**
+- **developer‑friendly tools**
+- a focus on **clarity, precision and security**
+
+This project is ideal for:
+
+- developers  
+- students  
+- security enthusiasts  
+- anyone needing quick, reliable cyber utilities  
+
+---
+
+## 🧰 Tools Included
+
+### 🔹 **CyberScan PRO v2**
+A passive web security analyzer detecting:
+
+- SQL injection patterns  
+- XSS payloads  
+- Unicode obfuscation  
+- Redirects  
+- Encoding tricks  
+- Suspicious domains  
+- High‑entropy payloads  
+- Mixed attacks  
+- Homoglyphs  
+- Path traversal  
+- Suspicious parameters  
+- And more…
+
+It generates:
+
+- a **global risk score**
+- a **detailed report**
+- categorized findings
+- normalized URL output
+
+---
+
+### 🔹 **Hash Generator**
+Generate:
+
+- SHA‑256  
+- SHA‑1  
+- MD5  
+- and more…
+
+---
+
+### 🔹 **Base64 Encoder / Decoder**
+Encode or decode Base64 strings instantly.
+
+---
+
+### 🔹 **Password Generator**
+Create strong, customizable passwords with:
+
+- length control  
+- symbols  
+- numbers  
+- uppercase/lowercase  
+
+---
+
+### 🔹 **IP Validator**
+Validate IPv4 / IPv6 addresses with instant feedback.
+
+---
+
+### 🔹 **URL Encoder / Decoder**
+Encode or decode URL strings safely.
+
+---
+
+## 🖥️ Tech Stack
+
+- **Next.js 16**
+- **React 19**
+- **TypeScript 5**
+- **TailwindCSS 4**
+- **Heroicons 2**
+- 100% client‑side execution
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/cybertools.git
+cd cybertools
+```
+
+### 2.  Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+The app will be available at :
+
+```bash
+http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📄 License
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file for details.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 👤 Author
+**Maxime Gavinet**  
+Creator of **CyberTools Suite**  
+Passionate about clean UI, security, and developer tools.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⭐ Support the Project
+If you like this project, consider:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- ⭐ **Starring the repository**
+- 🔗 **Sharing it**
+- 🛠️ **Contributing with new tools or improvements**
